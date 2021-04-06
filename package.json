@@ -10,7 +10,9 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "start": "http-server"
+    "start": "http-server",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "dependencies": {
     "todomvc-app-css": "2.3.0",
