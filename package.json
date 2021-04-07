@@ -5,6 +5,7 @@
   "scripts": {
     "build": "rollup -c",
     "start": "http-server",
+    "test": "cypress run",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   },
